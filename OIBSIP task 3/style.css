@@ -1,0 +1,65 @@
+
+* {
+    padding: 13px;
+    margin: 0;
+}
+
+body {
+background-color: cadetblue;
+}
+
+header {
+    text-align: justify;
+    font-size: 13px;
+    color: rgb(209, 17, 174);
+    padding: 1%;
+}
+main {
+    color: rgb(244, 106, 7);
+    background-color: rgba(21, 11, 1, 0.537);
+    justify-content: space-evenly;
+    margin-top: 1%;
+    display:inline-flex;
+    text-align: justify;
+    font-size:medium;
+    list-style: none;
+}
+.content {
+    text-align: start;
+    padding: 0% 0;
+}
+input {
+    height: 45PX;
+    width: 90%;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 8px 8px;
+}
+
+.bt{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.content>.title,
+.completed,
+.uncompleted {
+    font-size: 25px;
+    font-weight: bold;
+    width: max-content;
+}
+
+.uncompleted>li,
+.completed>li {
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.uncompleted>li button,
+.completed>li button {
+    font-size: 30px;
+    border: 0;
+    background-color: transparent;
+    margin: auto;
+    color: rgb(246, 253, 253);   
+}
